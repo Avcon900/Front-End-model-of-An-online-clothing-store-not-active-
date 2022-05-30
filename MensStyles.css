@@ -1,0 +1,52 @@
+.Container2{
+  background: white;
+}
+.title{
+   text-align: center;
+   font-size: 45px;
+   padding-top: 50px;
+   margin: 0 auto 80px;
+   line-height: 60px;
+   color: #555;
+   font-family: 'Merriweather Sans', sans-serif;
+
+  }
+
+  .smallcontainer{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .col-4{
+    flex-basis: 25%;
+    padding: 0;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+
+  }
+  .col-4 img {
+    width: 75%;
+  }
+  .col-4:hover{
+    transform: translateY(-5px);
+
+  }
+
+  .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  p{
+    color: #555;
+
+  }
+  h4{
+     color: #555;
+     font-weight: normal;
+     font-family: '', sans-serif;
+  }

@@ -1,0 +1,286 @@
+*{
+  margin : 0;
+  padding: 0;
+  box-sizing: 0;
+}
+body{
+  background: white;
+}
+.logo{
+  margin: 0;
+  padding: 0;
+
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+
+}
+
+.nav1{
+  flex: 1;
+  text-align: right;
+  font-family: 'Play', sans-serif;
+}
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.Menu{
+  font-family: 'Klee One', cursive;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  /*background: radial-gradient(#fff,#ffd6d6);*/
+
+
+}
+
+.categories li{
+  margin: 5px 70px 5px 70px;
+  box-sizing: border-box;
+
+}
+
+
+a{
+  text-decoration: none;
+  color: #B3541E;
+}
+.TAGLNE{
+  font-size: 50px;
+  margin: 0 auto 0 auto;
+  color: #750550;
+  text-align: center;
+  padding-right: 170px;
+  font-family: 'Dongle', sans-serif;
+}
+
+p{
+  color: #555;
+
+}
+.container{
+  max-width: 1300px;
+  margin: auto;
+  background: radial-gradient(#fff,#ffd6d6);
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+
+.Container2{
+  background: white;
+}
+.categories .fa{
+  margin-right: 8px
+}
+
+.btn{
+
+  transition: background 0.5s;
+}
+
+.btn:hover{
+  background: #FFFDDE;
+  border-radius: 15px;
+  padding: 0 10px;
+}
+/*
+.Featured{
+  margin: 70px 0;
+
+}
+.col-3{
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+
+.col-3 img {
+  width: 75%
+}
+*/
+.title{
+   text-align: center;
+   font-size: 45px;
+   padding-top: 50px;
+   margin: 0 auto 80px;
+   line-height: 60px;
+   color: #555;
+   font-family: 'Merriweather Sans', sans-serif;
+
+  }
+
+.title::after{
+  content: '';
+  background: #ff523b;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  top: 285px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.smallcontainer{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.col-4{
+  flex-basis: 25%;
+  padding: 0;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+
+}
+.col-4 img {
+  width: 75%;
+}
+h4{
+   color: #555;
+   font-weight: normal;
+   font-family: '', sans-serif;
+}
+.col-4 p{
+  font-size: 14px;
+
+}
+.rating .fa{
+  color: #ff523b;
+}
+.col-4:hover{
+  transform: translateY(-5px);
+
+}
+.brands{
+  max-width: 480px;
+
+}
+.brand{
+  flex-basis: 10%;
+  padding: 0;
+  min-width: 50px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+
+
+}
+.brand img{
+  cursor: pointer;
+
+  width: 100px;
+
+}
+
+.brand img:hover{
+  filter: grayscale(0);
+}
+.Brow{
+  display: flex;
+  align-items: left;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 480px;
+}
+h3{
+  text-align: left;
+  font-size: 25px;
+  padding-top: 20px;
+  padding-left: 50px;
+  margin: 0 auto 40px;
+  line-height: 30px;
+  color: #555;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.Trow{
+  display: flex;
+  align-items: left;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 480px;
+}
+.col-2 img {
+  float: left;
+  width: 400px;
+}
+.col-2 p , h1{
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: lighter;
+}
+small{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bolder;
+}
+em{
+  font-weight: 300;
+  font-family: 'Fira Sans', sans-serif;
+}
+.offer{
+  background: radial-gradient(#fff,#ffd6d6);
+}
+
+.btn2{
+  display: inline-block;
+  transition: background 0.5s;
+  background: #ff523b;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+}
+
+.btn2:hover{
+  background: #563434;
+  border-radius: 30px;
+
+}
+/*
+.footer{
+  background: #000;
+  color: #8a8a8a;
+  font-size: 14px;
+  padding: 60px 0 20px;
+}
+*/
+.container3{
+  background: #000;
+  color: #8a8a8a;
+  font-size: 14px;
+
+}
+.credits {
+  align-content: center;
+  margin: auto;
+  padding: 0;
+
+}
+
+.footer h3{
+  color: #EEEADE;
+  margin-bottom: 20px;
+}
+.foot-col-1{
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 20px;
+
+}
